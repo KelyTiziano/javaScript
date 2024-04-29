@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Projeto kely</title>
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div id="topo">
+            <h1>HTML, CSS e Java Script</h1>
+        </div>
+
+        <div id="sexo">
+            Nome: <br><input type="text" placeholder="first name" id="nome"><br><br>
+            <input type="radio" name="sexo" value="Menina" /> Menina<br>
+            <input type="radio" name="sexo" value="Menino" /> Menino<br><br>
+            <button id="enviarNome">Enviar</button>
+        </div>
+
+
+
+        <div id="ola">
+
+        </div>
+
+        <div id="r1">
+
+
+            <div id="r2">
+
+            </div>
+
+            <div id="r3">
+
+            </div>
+            <div id="r4">
+
+            </div>
+            <div id="r5">
+
+            </div>
+            <div id="r6">
+
+            </div>
+            <div id="r7">
+
+            </div>
+
+        </div>
+
+
+        <div id="cores"><br>
+            <form id="formCores">
+
+                <h3 style="color: #f8d568  "> Cores preferidas:</h3>
+                <input type="checkbox" id="vermelho" name="preferencia"> vermelho <br>
+                <input type="checkbox" id="azul" name="preferencia"> azul <br>
+                <input type="checkbox" id="amarelo" name="preferencia"> amarelo <br>
+                <input type="checkbox" id="verde" name="preferencia"> verde <br>
+                <input type="checkbox" id="branco" name="preferencia"> branco <br>
+                <input type="checkbox" id="preto" name="preferencia"> preto <br>
+                </p>
+            </form><br><br>
+        </div><br>
+
+
+        <div id="data"><br>
+            <form>
+                &nbsp; &nbsp; Que dia é hoje? &nbsp; &nbsp; &nbsp; &nbsp; Quando você nasceu? <br><br>
+                <input type="date" name="data" id="dataHoje"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input
+                    type="date" name="data" id="dataNasc"> <br><br>
+                <center>
+                    <input type="submit" value="calcular" id="calcular">
+                </center>
+
+            </form><br><br>
+        </div>
+
+        <div id="idade"><br>
+            <form>
+                <h2 style=" color: white"><i>
+                        
+                            
+                    </i></h2>
+                </p>
+                </p>
+            </form>
+        </div> <br><br><br>
+
+
+        <div id="bye">
+            <form>
+                <h3 id="tituloBye"><i>Quando chegar aqui você estará arrepiando no front-end!</i></h3>
+
+
+                <select id="selectBye">
+                    <option>Escolha uma mensagem de despedida</option>
+                    <option>Finalizado com sucesso</option>
+                    <option>Não consegui finalizar</option>
+                </select>
+
+                <button id="finalizar">finalizar</button>
+
+
+            </form>
+        </div>
+    </div>
+
+    <script src="./js/script.js" type="text/javascript"></script>
+
+</body>
+
+</html>
